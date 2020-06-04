@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    padding:80px;
+    text-align:center;
+    background: #201B35;
+    color: #ffffff;
+}
+.header h1{
+    font-size: 40px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #2C2648;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #dddddd;
+    color: #000000;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.row {
+    background-color: #ff3662;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.side{
+    flex: 30%;
+    background-color: #40366D;
+    padding: 20px
+}
+
+
+.main{
+    flex: 70%;
+    background-color: #443A73;
+    padding: 20px;
+}
+
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #2C2648;
+}
+
+.footer h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+
+.card-container {
+    margin: auto;
+    background-color: #231E39;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+    color: #B3B8CD;
+    padding-top: 30px;
+    position: relative;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.card-container .round {
+    border: 1px solid #03BFCB;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+button.primary {
+    background-color: #03BFCB;
+    border: 1px solid #03BFCB;
+    border-radius: 3px;
+    color: #231E39;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+
+button.primary.ghost {
+    background-color: transparent;
+    color: #02899C;
+}
+
+.skills {
+    background-color: #1F1A36;
+    text-align: left;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills ul li {
+    border: 1px solid #2D2747;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 7px 7px 0;
+    padding: 7px;
+}
+
+.listaItem1:hover {
+    color: #03BFCB;
+}
+.listaItem2:hover {
+    color: #03BFCB;
+}
+.listaItem3:hover {
+    color: #03BFCB;
+}
+.listaItem4:hover {
+    color: #03BFCB;
+}
+.listaItem5:hover {
+    color: #03BFCB;
+}
+.listaItem6:hover {
+    color: #03BFCB;
+}
+.listaItem7:hover {
+    color: #03BFCB;
+}
+.listaItem8:hover {
+    color: #03BFCB;
+}
+.listaItem9:hover {
+    color: #03BFCB;
+}
+.perfilCard{
+
+}
+#bioCard{
+    display: none;
+}
+#bioCard p{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 2em;
+    line-height: 1.6;
+}
+
+#Social{
+    display: none;
+}
+
+#Social a, a:hover{
+    text-decoration: none;
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+.socialbtns li {
+    list-style: none outside none;
+    padding-bottom: 2em;
+}
+.socialbtns .fa {
+    color: #FFF;
+    background-color: #231E39;
+    width: 40px;
+    height: 28px;
+    padding-top: 12px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
+.socialbtns .fa:hover {
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
