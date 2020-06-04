@@ -35,6 +35,7 @@ body{
 .navbar a:hover{
     background-color: #dddddd;
     color: #000000;
+    cursor: pointer;
 }
 
 *{
@@ -68,6 +69,8 @@ body{
     padding: 20px;
     text-align: center;
     background: #2C2648;
+    clear: both;
+    position: relative;
 }
 
 .footer h2 {
@@ -104,6 +107,7 @@ button.primary {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
     padding: 10px 25px;
+    cursor: pointer;
 }
 
 button.primary.ghost {
@@ -125,6 +129,7 @@ button.primary.ghost {
 }
 
 .skills ul li {
+    cursor: pointer;
     border: 1px solid #2D2747;
     border-radius: 2px;
     display: inline-block;
