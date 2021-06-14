@@ -41909,11 +41909,15 @@ var $async$$1=P.X(function(b,c){if(b===1)return P.a_(c,r)
 while(true)switch(s){case 0:if(a.e!=null)q.a.h9(new A.zN())
 if(a.d!=null)q.a.h9(new A.tW())
 n=a.c
-if(n!=null){p=t.P.a($.dx().eK($.XH(),n))
+s=n!=null?2:3
+break
+case 2:p=t.P.a($.dx().eK($.XH(),n))
 o=J.aH(J.aH(p,"loginAuth"),"token")
 n=q.a
-n.r.b.$1(o)
-n.h9(new A.zO())}return P.a0(null,r)}})
+s=4
+return P.a3(n.r.b.$1(o),$async$$1)
+case 4:n.h9(new A.zO())
+case 3:return P.a0(null,r)}})
 return P.a1($async$$1,r)},
 $S:343}
 A.f9.prototype={}
@@ -42337,7 +42341,8 @@ ait:function(a,b,c){var $async$dG=P.X(function(d,e){switch(d){case 2:n=q
 s=n.pop()
 break
 case 1:o=e
-s=p}while(true)switch(s){case 0:s=m.c==null?3:4
+s=p}while(true)switch(s){case 0:l=m.c
+s=l==null||l.length<=0?3:4
 break
 case 3:s=5
 return P.bK(m.u9(),$async$dG,r)
